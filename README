@@ -1,3 +1,19 @@
+====================
+My Code installation
+====================
+
+1. Create DB
+
+cd parser/protected/data/
+mysql -u *** -p*** < stations.sql
+
+2. Initial application
+cd ./parser/myCode
+php init.php --input=input.txt
+
+3. Configure Apache for directory "./parser/index.php"
+
+=============================
 Yii Web Programming Framework
 =============================
 
